@@ -1,0 +1,5 @@
+package aStarSearchAlgo;
+
+public class AStarNodeComparator {
+
+}

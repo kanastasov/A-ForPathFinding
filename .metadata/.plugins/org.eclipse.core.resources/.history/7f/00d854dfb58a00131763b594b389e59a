@@ -1,0 +1,25 @@
+package worldMap;
+/**If the world, i.e., the area for path planning is not very big, navigation map is not really necessary. We can create a world map instead.
+
+A world map is actually a matrix to hold all positions as follows.
+ * 
+ * @author ForexMaster
+ *
+ */
+
+public class WorldMap {
+    int rowNum;
+    int columnNum;
+
+    String[][] map;
+    Map<String, MatrixPosition> index;
+
+    public WorldMap(int rowNum, int columnNum) {
+        this.rowNum = rowNum;
+        this.columnNum = columnNum;
+        map = new String[rowNum][columnNum];
+        index = new HashMap<String, MatrixPosition>();
+    }
+
+//...
+}

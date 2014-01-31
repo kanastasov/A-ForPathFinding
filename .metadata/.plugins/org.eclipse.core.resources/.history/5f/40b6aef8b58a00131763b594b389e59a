@@ -1,0 +1,6 @@
+package worldMap;
+
+public interface WorldMapLoader {
+
+	WorldMap load(String filePath);
+}

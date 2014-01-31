@@ -1,0 +1,21 @@
+package dataStructure;
+
+/**
+ * The navigation graph is defined as follows.
+ */
+
+import java.util.List;
+
+public class NavNode extends Node
+{
+
+	protected Position position;
+
+    protected List<String> extraData;
+
+    
+    public NavNode(String id) {
+		super(id);
+		// TODO Auto-generated constructor stub
+	}
+}
